@@ -17,11 +17,12 @@ body {
   background-size: cover;
   margin: 0;
 }
-.text-main {
+
+.secondary-color {
   color: var(--secondary-color);
 }
 
-.text-faded {
+.primary-color {
   color: var(--primary-color);
 }
 .bg-faded {
@@ -115,4 +116,21 @@ h1,
 .social-links a:hover {
   color: var(--secondary-color);
   background: #111d0d;
+}
+
+.btn-secondary {
+  background-color: var(--primary-color);
+  color: #111d0d;
+  border: none;
+}
+.btn-secondary:hover {
+  background-color: #111d0d;
+  color: var(--primary-color);
+  border: none;
+}
+
+.textBackground {
+  background-color: rgba(17, 29, 13, 0.35);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
