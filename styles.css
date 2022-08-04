@@ -29,6 +29,10 @@ body {
   background-color: var(--primary-color);
 }
 
+.secondary-muted {
+  color: rgba(185, 206, 164, 0.8);
+}
+
 h6,
 .h6,
 h5,
@@ -131,8 +135,8 @@ footer,
 }
 
 .textBackground {
-  background-color: rgba(17, 29, 13, 0.35);
-  padding-top: 25px;
+  background-color: rgba(17, 29, 13, 0.5);
+  padding-top: 14px;
   padding-bottom: 25px;
 }
 
@@ -149,3 +153,5 @@ footer,
   margin-top: -80px;
   position: relative;
 }
+
+
