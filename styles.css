@@ -30,7 +30,12 @@ body {
 }
 
 .secondary-muted {
-  color: rgba(185, 206, 164, 0.8);
+  color: rgba(185, 206, 164, 0.6);
+}
+
+h2 span {
+  font-style: italic;
+  font-size: 30px;
 }
 
 h6,
@@ -154,4 +159,6 @@ footer,
   position: relative;
 }
 
-
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
