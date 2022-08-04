@@ -131,12 +131,17 @@ footer,
 .btn-secondary {
   background-color: var(--primary-color);
   color: #111d0d;
-  border: none;
+  border: #111d0d 1px solid;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 20px;
 }
 .btn-secondary:hover {
   background-color: #111d0d;
   color: var(--primary-color);
-  border: none;
+  border: var(--primary-color) 1px solid;
 }
 
 .textBackground {
@@ -161,4 +166,72 @@ footer,
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.test-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 70%;
+  height: 800px;
+  background: url(images/IMG_6490.JPG) no-repeat center/cover;
+  border-radius: 8px;
+}
+
+.right {
+  width: 60%;
+  min-height: 500px;
+  background-color: #111d0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  border-radius: 8px;
+  color: var(--primary-color);
+  margin-left: -90px;
+}
+
+.right .site-heading-lower {
+  font-size: 60px;
+  font-weight: 100;
+}
+.right p {
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .left {
+    height: 400px;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -80px;
+    height: 600px;
+    padding: 20px 30px;
+  }
 }
