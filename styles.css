@@ -192,11 +192,11 @@ section {
   }
   .left {
     height: 600px;
-    width: 80%;
+    width: 90%;
     margin: 0 20px;
   }
   .right {
-    width: 60%;
+    width: 70%;
     margin: 0;
     margin-top: -80px;
     height: 400px;
@@ -404,6 +404,9 @@ h2 span {
     margin-bottom: 3px;
   }
 }
+
+/* Contact Page */
+
 
 /* Learn More Pages*/
 
