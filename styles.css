@@ -205,6 +205,9 @@ section {
   .right .site-heading-lower {
     font-size: 40px;
   }
+  .right .content {
+    margin-top: -20px;
+  }
 }
 
 /* About Page */
