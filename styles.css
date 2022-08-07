@@ -29,11 +29,16 @@ img {
   border-radius: 8px;
 }
 
+p {
+  margin: 30px 0;
+}
+
 .secondary-color {
   color: var(--secondary-color);
 }
 
-.primary-color {
+.primary-color,
+h2 {
   color: var(--primary-color);
 }
 .bg-faded {
@@ -62,6 +67,7 @@ h1,
   margin-bottom: 60px;
   text-transform: uppercase;
   line-height: 1;
+  color: var(--primary-color);
 }
 .site-heading .site-heading-upper {
   display: block;
@@ -72,6 +78,7 @@ h1,
   font-size: 80px;
   font-weight: 100;
   line-height: 4rem;
+  color: var(--primary-color);
 }
 
 .nav {
@@ -180,9 +187,6 @@ section {
 .right .site-heading-lower {
   font-size: 60px;
   font-weight: 100;
-}
-.right p {
-  margin: 30px 0;
 }
 
 @media (max-width: 768px) {
@@ -300,7 +304,7 @@ h2 span {
   flex: 1;
   margin-left: -50px;
   padding: 30px 35px;
-  background-color: var(--secondary-color);
+  background-color: #111d0d;
   border-radius: 8px;
   box-shadow: 0 0 20px #00000028;
   z-index: 2;
@@ -406,7 +410,6 @@ h2 span {
 }
 
 /* Contact Page */
-
 
 /* Learn More Pages*/
 
