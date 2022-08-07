@@ -430,13 +430,14 @@ h2 span {
 }
 
 .hero .container .learn-more-right {
-  flex: 8;
+  flex: 5;
   margin-left: -50px;
 }
 
 .hero .learn-more-left span,
 li {
   font-size: 17px;
+  line-height: 1.8;
 }
 
 .learn-more-right .buttons {
@@ -450,12 +451,16 @@ li {
   }
   .hero .container .learn-more-left {
     width: 90%;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     text-align: center;
     padding-right: 30px;
   }
+  .hero .container .learn-more-right img {
+    display: none;
+  }
   .hero .container .learn-more-right {
+    display: flex;
+    justify-content: center;
     margin-left: 0;
-    width: 90%;
   }
 }
