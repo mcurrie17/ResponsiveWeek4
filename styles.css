@@ -412,6 +412,44 @@ h2 span {
 
 /* Contact Page */
 
+#form {
+  padding: 100px 0;
+}
+.form-title {
+  font-size: 50px;
+}
+.form-wrapper {
+  padding: 30px 0;
+}
+.form-wrapper form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+.form-group label {
+  color: var(--primary-color);
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  color: #111d0d;
+  padding: 8px;
+}
+
+.form-wrapper button[type='submit'] {
+  width: max-content;
+}
+@media only screen and (min-width: 768px) {
+  .form-wrapper form {
+    grid-template-columns: 1fr 1fr;
+  }
+  .form-group-full {
+		grid-column: 1/3;
+}
+
 /* Learn More Pages*/
 
 .hero .container {
@@ -462,5 +500,12 @@ li {
     display: flex;
     justify-content: center;
     margin-left: 0;
+  }
+  .hero .container .learn-more-left ul {
+    text-align: left;
+    padding-left: 0;
+  }
+  .hero .container .learn-more-left .col-right {
+    padding-right: 5px;
   }
 }
