@@ -220,6 +220,12 @@ section {
   gap: 50px;
 }
 
+.my-story-content, .my-goals-content {
+  background-color: #111d0d;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
 .my-story-title,
 .my-goals-title {
   font-size: 50px;
@@ -240,6 +246,7 @@ section {
   .my-story-content {
     flex: 1;
   }
+
   .my-story-text {
     max-width: 800px;
   }
