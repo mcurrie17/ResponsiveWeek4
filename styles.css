@@ -93,6 +93,7 @@ h1,
 .nav-link {
   display: block;
   padding: 8px 16px;
+  font-size: 20px;
   color: var(--primary-color);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
