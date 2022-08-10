@@ -417,9 +417,13 @@ h2 span {
 }
 .form-title {
   font-size: 50px;
+  font-weight: 200;
 }
 .form-wrapper {
-  padding: 30px 0;
+  background-color: #111d0d;
+  padding: 30px 50px;
+  border-radius: 8px;
+
 }
 .form-wrapper form {
   display: grid;
@@ -427,7 +431,7 @@ h2 span {
   gap: 32px;
 }
 .form-group label {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .form-group input,
 .form-group textarea {

@@ -87,37 +87,41 @@
     </nav>
     <!-- Contact Form Start -->
     <section id="form">
-    <div class="container">
-      <h3 class="form-title text-center">
-        Contact Me
-      </h3>
-      <div class="form-wrapper">
-        <form name="contact" method="POST" netlify>
-          <div class="form-group">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="First Name" required>
-          </div>
-          <div class="form-group">
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="Last Name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="Email" required>
-          </div>
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="Subject" required>
-          </div>
-          <div class="form-group form-group-full">
-            <label for="message">Message</label>
-            <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-secondary">Send</button>
-        </form>
+      <div class="container">
+        <div class="form-wrapper">
+          <h3 class="form-title text-center mb-4">Contact Me</h3>
+          <form name="contact" method="POST" netlify>
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="First Name" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="Last Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="Email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="Subject" required />
+            </div>
+            <div class="form-group form-group-full">
+              <label for="message">Message</label>
+              <textarea
+                name="Message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Send</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
     <!-- Contact Form End -->
     <footer class="footer text-center py-5">
       <div class="container justify-content-center">
