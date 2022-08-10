@@ -90,7 +90,12 @@
       <div class="container">
         <div class="form-wrapper">
           <h3 class="form-title text-center mb-4">Contact Me</h3>
-          <form name="contact" method="POST" netlify>
+          <form
+            name="contact"
+            action="https://formspree.io/f/mpznzqlq"
+            method="POST"
+            id="my-form"
+          >
             <div class="form-group">
               <label for="firstName">First Name</label>
               <input type="text" id="firstName" name="First Name" required />
@@ -117,7 +122,9 @@
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-secondary">Send</button>
+            <button type="submit" class="btn btn-secondary">
+              Send
+            </button>
           </form>
         </div>
       </div>
